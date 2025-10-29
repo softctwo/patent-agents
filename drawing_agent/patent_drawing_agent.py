@@ -14,8 +14,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from agents import Agent, function_tool
 
-# 导入绘图工具和模型
-from tools.patent_drawing_tool import PatentDrawingTool
+# 导入AI绘图工具
+from tools.ai_patent_drawing_tool import AIPatentDrawingTool
 from schemas.drawing_schemas import (
     DrawingRequest,
     DrawingType,
@@ -63,14 +63,15 @@ def create_patent_drawing(
             structure_details=structure_details
         )
 
-        # 创建绘图工具
-        tool = PatentDrawingTool()
+        # 创建AI绘图工具
+        tool = AIPatentDrawingTool()
 
         # 生成附图
         result = tool.create_drawing(request, output_path)
 
         # 返回结果
-        return f"专利附图已成功生成！\n\n附图信息：\n- 发明名称：{invention_title}\n- 附图类型：{drawing_type}\n- 组件数量：{len(components)}\n- 生成时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n{'附图已保存到：' + output_path if output_path else '附图数据已生成（Base64编码）'}\n\n符合专利审查指南要求：\n✓ 线条清晰，粗细均匀\n✓ 标记清楚，与说明书一致\n✓ 格式标准，分辨率300DPI\n✓ 黑白线条图，无色彩"
+        ai_status = "✅ AI驱动" if tool.gemini_model else "⚠️ 基础绘图"
+        return f"专利附图已成功生成！{ai_status}\n\n附图信息：\n- 发明名称：{invention_title}\n- 附图类型：{drawing_type}\n- 组件数量：{len(components)}\n- 生成时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n{'附图已保存到：' + output_path if output_path else '附图数据已生成（Base64编码）'}\n\n符合专利审查指南要求：\n✓ 线条清晰，粗细均匀\n✓ 标记清楚（仅英文，无中文）\n✓ 格式标准，分辨率300DPI\n✓ 黑白线条图，无色彩\n✓ AI优化布局，专业技术风格"
 
     except Exception as e:
         return f"创建专利附图时发生错误：{str(e)}"
