@@ -148,3 +148,8 @@ cython_debug/
 
 # Redis database files
 dump.rdb
+
+# OpenMemory - IDE/Assistant specific rules
+.cursor/rules/openmemory.mdc
+CLAUDE.md
+AGENTS.md
