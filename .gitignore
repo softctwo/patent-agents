@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 # macOS Files
 .DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 **/__pycache__/
+=======
+# Byte-compiled / optimized / DLL files
+__pycache__/
+>>>>>>> a46b91673a146d22130f83bd68806f0d3bd5013c
 *.py[cod]
 *$py.class
 
@@ -24,6 +29,10 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
+=======
+pip-wheel-metadata/
+>>>>>>> a46b91673a146d22130f83bd68806f0d3bd5013c
 share/python-wheels/
 *.egg-info/
 .installed.cfg
@@ -31,6 +40,11 @@ share/python-wheels/
 MANIFEST
 
 # PyInstaller
+<<<<<<< HEAD
+=======
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+>>>>>>> a46b91673a146d22130f83bd68806f0d3bd5013c
 *.manifest
 *.spec
 
@@ -51,7 +65,10 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+<<<<<<< HEAD
 cover/
+=======
+>>>>>>> a46b91673a146d22130f83bd68806f0d3bd5013c
 
 # Translations
 *.mo
@@ -74,7 +91,10 @@ instance/
 docs/_build/
 
 # PyBuilder
+<<<<<<< HEAD
 .pybuilder/
+=======
+>>>>>>> a46b91673a146d22130f83bd68806f0d3bd5013c
 target/
 
 # Jupyter Notebook
@@ -84,12 +104,26 @@ target/
 profile_default/
 ipython_config.py
 
+<<<<<<< HEAD
 # pdm
 .pdm.toml
 .pdm-python
 .pdm-build/
 
 # PEP 582
+=======
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+>>>>>>> a46b91673a146d22130f83bd68806f0d3bd5013c
 __pypackages__/
 
 # Celery stuff
@@ -100,17 +134,25 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+<<<<<<< HEAD
 .python-version
 .env*
 .venv
 .venv*
+=======
+.env
+.venv
+>>>>>>> a46b91673a146d22130f83bd68806f0d3bd5013c
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+<<<<<<< HEAD
 .venv39
 .venv_res
+=======
+>>>>>>> a46b91673a146d22130f83bd68806f0d3bd5013c
 
 # Spyder project settings
 .spyderproject
@@ -130,15 +172,21 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+<<<<<<< HEAD
 # pytype static type analyzer
 .pytype/
 
 # Cython debug symbols
 cython_debug/
+=======
+# VS Code
+.vscode/
+>>>>>>> a46b91673a146d22130f83bd68806f0d3bd5013c
 
 # PyCharm
 .idea/
 
+<<<<<<< HEAD
 # Ruff stuff:
 .ruff_cache/
 
@@ -153,3 +201,42 @@ dump.rdb
 .cursor/rules/openmemory.mdc
 CLAUDE.md
 AGENTS.md
+=======
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test output files (keep example images for demonstration)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.bmp
+# *.tiff
+# *.ico
+# test_*.png
+# test_*.txt
+# simple_test_*.png
+# demo_*.png
+
+# Only ignore generated image files, not examples
+*_generated_*.png
+*_generated_*.jpg
+*_output_*.png
+*_output_*.jpg
+
+# Generated reports
+*测试报告*.txt
+*test_report*.txt
+*report_*.txt
+
+# API Keys
+.env
+*.key
+config.json
+secrets.json
+>>>>>>> a46b91673a146d22130f83bd68806f0d3bd5013c
