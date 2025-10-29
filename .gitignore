@@ -142,18 +142,24 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Test output files
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.tiff
-*.ico
-test_*.png
-test_*.txt
-simple_test_*.png
-demo_*.png
+# Test output files (keep example images for demonstration)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.bmp
+# *.tiff
+# *.ico
+# test_*.png
+# test_*.txt
+# simple_test_*.png
+# demo_*.png
+
+# Only ignore generated image files, not examples
+*_generated_*.png
+*_generated_*.jpg
+*_output_*.png
+*_output_*.jpg
 
 # Generated reports
 *测试报告*.txt
