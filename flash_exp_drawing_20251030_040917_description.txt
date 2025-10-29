@@ -1,0 +1,82 @@
+======================================================================
+Gemini-2.0-Flash-Exp-Image-Generation 绘图描述
+======================================================================
+
+标题: Figure 1: Device
+视图类型: cross-sectional
+组件数量: 10
+
+原始描述:
+----------------------------------------------------------------------
+Okay, here's a detailed textual description to guide the creation of a professional patent technical drawing of a "Smart Blockchain Hardware Wallet."  This description focuses on clarity, detail, and adherence to patent drawing conventions.
+
+**Title:** Figure 1: Smart Blockchain Hardware Wallet
+
+**Overall View:**
+
+*   **Type:** Cross-sectional view.  This allows for internal components to be clearly visible. The cross-section should be taken along the longest axis of the ellipse.
+*   **Orientation:**  The hardware wallet should be oriented horizontally, with the top facing upwards.
+*   **Style:**  Clean, crisp black lines on a white background.  No shading or color.  Use consistent line weights.  Lines should be straight unless depicting a curved surface.
+*   **Scale:**  Proportional and realistic.  The relative sizes of the components should be accurate.  The overall size of the wallet should be compact and pocketable.
+
+**Component Breakdown and Labeling:**
+
+1.  **Elliptical Enclosure (1):**
+    *   **Description:**  A smooth, seamless elliptical shell forming the outer casing of the wallet.  The cross-section should show the thickness of the enclosure wall.  Material should be implied (e.g., metal or high-strength plastic).
+    *   **Label Placement:**  An arrow pointing to the outer surface of the enclosure.
+    *   **Details:** Show a slight bevel or rounded edge where the two halves of the enclosure meet.
+
+2.  **Biometric Fingerprint Scanner (2):**
+    *   **Description:**  A small, rectangular sensor embedded flush with the surface of the enclosure on the top side.  It should be positioned towards one end of the ellipse.
+    *   **Label Placement:**  An arrow pointing to the surface of the scanner.
+    *   **Details:**  Show a slight indentation or a contrasting texture to indicate the sensor area.
+
+3.  **OLED Display Screen (3):**
+    *   **Description:**  A rectangular screen positioned adjacent to the fingerprint scanner on the top side of the enclosure.  It should be slightly recessed within the enclosure.
+    *   **Label Placement:**  An arrow pointing to the screen surface.
+    *   **Details:**  Show a thin border around the active display area.
+
+4.  **PCB Main Board (4):**
+    *   **Description:**  A rectangular printed circuit board (PCB) occupying a significant portion of the internal volume.  It should be positioned centrally within the enclosure.
+    *   **Label Placement:**  An arrow pointing to the surface of the PCB.
+    *   **Details:**  Show a few representative components on the PCB, such as integrated circuits (ICs) represented by small rectangles and capacitors represented by small cylinders.  Avoid excessive detail that would clutter the drawing.
+
+5.  **Lithium Battery (5):**
+    *   **Description:**  A flat, rectangular battery positioned below the PCB.
+    *   **Label Placement:**  An arrow pointing to the battery surface.
+    *   **Details:**  Show the battery terminals as small protrusions.
+
+6.  **Wireless Charging Coil (6):**
+    *   **Description:**  A flat, circular coil positioned below the battery, close to the bottom surface of the enclosure.
+    *   **Label Placement:**  An arrow pointing to the coil.
+    *   **Details:**  Show the coil windings as concentric circles.
+
+7.  **USB-C Interface (7):**
+    *   **Description:**  A USB-C port located on one of the short ends of the elliptical enclosure.
+    *   **Label Placement:**  An arrow pointing to the port opening.
+    *   **Details:**  Show the characteristic oval shape of the USB-C port.
+
+8.  **Physical Buttons (8):**
+    *   **Description:**  Two small buttons located on the side of the enclosure, opposite the fingerprint scanner.
+    *   **Label Placement:**  An arrow pointing to one of the buttons.
+    *   **Details:**  Show a slight protrusion of the buttons from the enclosure surface.
+
+9.  **Modular Security Chip (9):**
+    *   **Description:**  A small, rectangular chip socketed on the PCB Main Board (4).  It should be clearly distinguishable from other components on the PCB.
+    *   **Label Placement:**  An arrow pointing to the chip.
+    *   **Details:**  Show the socket surrounding the chip and a few connection pins.
+
+10. **Anti-tamper Structure (10):**
+    *   **Description:**  A network of fine wires or a thin mesh embedded within the enclosure walls, surrounding the PCB and critical components. This is to detect physical intrusion.
+    *   **Label Placement:**  An arrow pointing to the wire mesh.
+    *   **Details:**  Represent the wires as very thin, closely spaced lines.
+
+**Additional Considerations:**
+
+*   **Line Weight:** Use a heavier line weight for the outer enclosure and major components. Use a lighter line weight for internal details and the anti-tamper structure.
+*   **Clarity:** Ensure that all components are clearly distinguishable and labeled. Avoid overlapping lines.
+*   **Patent Conventions:** Adhere to standard patent drawing conventions, including the use of consistent line weights, clear labeling, and a white background.
+*   **Scale and Proportion:** Maintain realistic proportions between the components. The overall size of the wallet should be compact and pocketable.
+*   **Section Lines:** Use standard section lines (parallel lines at an angle) to indicate the cut surfaces of the enclosure.
+
+This detailed description should provide enough information to generate a clear and professional patent technical drawing of the Smart Blockchain Hardware Wallet. Remember to prioritize clarity and accuracy in the drawing.
